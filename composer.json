@@ -1,0 +1,15 @@
+{
+    "name": "kleber/frame",
+    "autoload": {
+        "psr-4": {
+            "Kleber\\Frame\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kleber de Souza",
+            "email": "kleber.souza@hiplatform.com"
+        }
+    ],
+    "require": {}
+}
