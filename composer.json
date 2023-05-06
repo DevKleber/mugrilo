@@ -2,7 +2,7 @@
     "name": "kleber/frame",
     "autoload": {
         "psr-4": {
-            "Kleber\\Frame\\": "src/"
+            "Src\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,9 @@
             "email": "kleber.souza@hiplatform.com"
         }
     ],
-    "require": {}
+    "require": {
+        "doctrine/orm": "^2.15",
+        "symfony/cache": "^6.2",
+        "doctrine/annotations": "^1.4"
+    }
 }
